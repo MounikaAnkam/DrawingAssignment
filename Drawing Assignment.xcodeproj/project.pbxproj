@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FDDB62E61AD1F59E003DEE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB62E51AD1F59E003DEE1D /* AppDelegate.swift */; };
-		FDDB62E81AD1F59E003DEE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB62E71AD1F59E003DEE1D /* ViewController.swift */; };
-		FDDB62EB1AD1F59F003DEE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDB62E91AD1F59E003DEE1D /* Main.storyboard */; };
 		FDDB62ED1AD1F59F003DEE1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDB62EC1AD1F59F003DEE1D /* Images.xcassets */; };
 		FDDB62F01AD1F59F003DEE1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDB62EE1AD1F59F003DEE1D /* LaunchScreen.xib */; };
 		FDDB62FC1AD1F59F003DEE1D /* Drawing_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB62FB1AD1F59F003DEE1D /* Drawing_AssignmentTests.swift */; };
+		FDDB630C1AD1F5F6003DEE1D /* hillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB63071AD1F5F6003DEE1D /* hillsView.swift */; };
+		FDDB630D1AD1F5F6003DEE1D /* chessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB63081AD1F5F6003DEE1D /* chessView.swift */; };
+		FDDB630E1AD1F5F6003DEE1D /* rainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB63091AD1F5F6003DEE1D /* rainView.swift */; };
+		FDDB63111AD1F788003DEE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB630F1AD1F787003DEE1D /* ViewController.swift */; };
+		FDDB63121AD1F788003DEE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDB63101AD1F787003DEE1D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		FDDB62E01AD1F59E003DEE1D /* Drawing Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDB62E41AD1F59E003DEE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDB62E51AD1F59E003DEE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDDB62E71AD1F59E003DEE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDDB62EA1AD1F59F003DEE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDDB62EC1AD1F59F003DEE1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDDB62EF1AD1F59F003DEE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDDB62F51AD1F59F003DEE1D /* Drawing AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDB62FA1AD1F59F003DEE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDB62FB1AD1F59F003DEE1D /* Drawing_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_AssignmentTests.swift; sourceTree = "<group>"; };
+		FDDB63071AD1F5F6003DEE1D /* hillsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hillsView.swift; sourceTree = "<group>"; };
+		FDDB63081AD1F5F6003DEE1D /* chessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chessView.swift; sourceTree = "<group>"; };
+		FDDB63091AD1F5F6003DEE1D /* rainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rainView.swift; sourceTree = "<group>"; };
+		FDDB630F1AD1F787003DEE1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDDB63101AD1F787003DEE1D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				FDDB62E51AD1F59E003DEE1D /* AppDelegate.swift */,
-				FDDB62E71AD1F59E003DEE1D /* ViewController.swift */,
-				FDDB62E91AD1F59E003DEE1D /* Main.storyboard */,
 				FDDB62EC1AD1F59F003DEE1D /* Images.xcassets */,
+				FDDB630F1AD1F787003DEE1D /* ViewController.swift */,
+				FDDB63101AD1F787003DEE1D /* Main.storyboard */,
+				FDDB63071AD1F5F6003DEE1D /* hillsView.swift */,
+				FDDB63081AD1F5F6003DEE1D /* chessView.swift */,
+				FDDB63091AD1F5F6003DEE1D /* rainView.swift */,
 				FDDB62EE1AD1F59F003DEE1D /* LaunchScreen.xib */,
 				FDDB62E31AD1F59E003DEE1D /* Supporting Files */,
 			);
@@ -192,7 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDB62EB1AD1F59F003DEE1D /* Main.storyboard in Resources */,
+				FDDB63121AD1F788003DEE1D /* Main.storyboard in Resources */,
 				FDDB62F01AD1F59F003DEE1D /* LaunchScreen.xib in Resources */,
 				FDDB62ED1AD1F59F003DEE1D /* Images.xcassets in Resources */,
 			);
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDB62E81AD1F59E003DEE1D /* ViewController.swift in Sources */,
+				FDDB63111AD1F788003DEE1D /* ViewController.swift in Sources */,
+				FDDB630C1AD1F5F6003DEE1D /* hillsView.swift in Sources */,
+				FDDB630E1AD1F5F6003DEE1D /* rainView.swift in Sources */,
 				FDDB62E61AD1F59E003DEE1D /* AppDelegate.swift in Sources */,
+				FDDB630D1AD1F5F6003DEE1D /* chessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDDB62E91AD1F59E003DEE1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDDB62EA1AD1F59F003DEE1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDDB62EE1AD1F59F003DEE1D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

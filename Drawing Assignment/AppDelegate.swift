@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Drawing Assignment
 //
-//  Created by RAMADASU PUNATI on 4/5/15.
-//  Copyright (c) 2015 Santhoshi Jaini. All rights reserved.
+//  Created by Mounika Ankam on 4/3/15.
+//  Copyright (c) 2015 Mounika Ankam. All rights reserved.
 //
 
 import UIKit
